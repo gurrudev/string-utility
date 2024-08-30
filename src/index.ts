@@ -30,6 +30,16 @@ export function padStart(str: string, length: number, padString: string = ' '): 
     return str.padStart(length, padString);
 }
 
-export function repeat(str: string, count: number): string {
-    return str.repeat(count);
+export function padEnd(str: string, length: number, padString: string = ' '): string {
+    return str.padEnd(length, padString);
 }
+
+
+export function repeat(str: string, count: number): string {
+    return Array(count).fill(str).join(' ');
+}
+
+export function kebabCase(str: string): string {
+    return str.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/[\s_]+/g, '-').toLowerCase();
+}
+
