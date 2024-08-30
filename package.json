@@ -1,6 +1,6 @@
 {
   "name": "string-utility-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String Utility is a lightweight, easy-to-use library for JavaScript and TypeScript that provides a collection of commonly used string manipulation functions. Whether you're working on a small project or a large-scale application, this library aims to simplify string operations with clean, efficient, and well-tested utility functions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
