@@ -1,0 +1,28 @@
+{
+  "name": "string-utility",
+  "version": "1.0.0",
+  "description": "String Utility is a lightweight, easy-to-use library for JavaScript and TypeScript that provides a collection of commonly used string manipulation functions. Whether you're working on a small project or a large-scale application, this library aims to simplify string operations with clean, efficient, and well-tested utility functions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurrudev/string-utility.git"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": "ASHUTOSH PAWAR",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gurrudev/string-utility/issues"
+  },
+  "homepage": "https://github.com/gurrudev/string-utility#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "files": ["dist/**/*"]
+}
