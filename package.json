@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "start": "tsc && nodemon server.js",
     "prepare": "npm run build"
   },
   "repository": {
