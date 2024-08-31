@@ -9,6 +9,14 @@
 String Utility TS is a lightweight, easy-to-use library for JavaScript and TypeScript that provides a collection of commonly used string manipulation functions. Whether you're working on a small project or a large-scale application, this library aims to simplify string operations with clean, efficient, and well-tested utility functions.
 </p>
 
+<h3>📦 Installation </h3>
+
+```sh
+npm i string-utility-ts
+```
+
+<h3>🧑‍💻 Examples</h3>
+
 <h4> 1) Reverse String </h4>
 
 *Reverses the characters in the string.*
