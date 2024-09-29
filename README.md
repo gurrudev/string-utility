@@ -118,3 +118,39 @@ const str = 'Hello World'
 const result = repeat(str, 3)
 console.log(result);    // Hello World Hello World Hello World
 ```
+<h4> 9) Upper Case </h4>
+
+*Converts a string to Upper Case.*
+
+```js
+import { upperCase } = from 'string-utility-ts'
+
+const str = 'Hello World'
+
+const result = upperCase(str)
+console.log(result);    // HELLO WORLD
+```
+<h4> 10) lowerCase </h4>
+
+*Converts a string to Lower Case.*
+
+```js
+import { lowerCase } = from 'string-utility-ts'
+
+const str = 'Hello World'
+
+const result = lowerCase(str)
+console.log(result);    // hello world
+```
+<h4> 10) Stripped String </h4>
+
+*Removes HTML from the String.*
+
+```js
+import { strippedString } = from 'string-utility-ts'
+
+const str = `<p class="description"><span class="text-colorized">String Utility TS</span> is a lightweight, easy-to-use library for JavaScript and TypeScript that provides a collection of commonly used string manipulation functions.</p>`
+
+const result = strippedString(str)
+console.log(result);    // String Utility TS is a lightweight, easy-to-use library for JavaScript and TypeScript that provides a collection of commonly used string manipulation functions.
+```
